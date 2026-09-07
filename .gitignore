@@ -1,0 +1,23 @@
+# Secrets — never commit
+.env
+
+# Runtime data (conversation history) and logs
+data/
+logs/
+*.bak
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# IDE / editor
+.idea/
+.vscode/
+
+# OS junk
+Thumbs.db
+Desktop.ini
+.DS_Store
