@@ -1,0 +1,11 @@
+# Discord library — 2.x is the current stable line
+discord.py>=2.4.0,<3.0
+
+# .env file loading
+python-dotenv>=1.0.1
+
+# OpenAI provider (install both SDKs so the provider is switchable via .env)
+openai>=1.40.0
+
+# Gemini provider (official google-genai SDK)
+google-genai>=1.20.0
